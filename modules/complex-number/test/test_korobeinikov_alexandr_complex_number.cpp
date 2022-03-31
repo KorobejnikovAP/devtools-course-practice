@@ -1,4 +1,4 @@
-// Copyright 2022 Korobinikov Alexandr
+// Copyright 2022 Korobeinikov Alexandr
 
 #include <gtest/gtest.h>
 
