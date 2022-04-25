@@ -3,11 +3,11 @@
 #include <stack>
 #include <string>
 
-#ifndef MODULES_STRING_CALCULATOR_INCLUDE_STRING_CALCULATOR_H_
-#define MODULES_STRING_CALCULATOR_INCLUDE_STRING_CALCULATOR_H_
+#ifndef MODULES_KOROBEINIKOV_STRING_CALCULATOR_INCLUDE_STRING_CALCULATOR_H_
+#define MODULES_KOROBEINIKOV_STRING_CALCULATOR_INCLUDE_STRING_CALCULATOR_H_
 
 class StringCalculator {
-private:
+ private:
     std::string infix_, postfix_;
     std::stack<char> charStack_;
     std::stack<double> doubleStack_;
@@ -16,7 +16,7 @@ private:
     int Priority(const char& el);
     void ToPostfix();
 
-public:
+ public:
     void set_infix(const std::string str);
     void set_postfix(const std::string str);
     void set_stacks(int n);
@@ -27,4 +27,4 @@ public:
     double Calculate();
 };
 
-#endif  // MODULES_STRING_CALCULATOR_INCLUDE_STRING_CALCULATOR_H_
+#endif  // MODULES_KOROBEINIKOV_STRING_CALCULATOR_INCLUDE_STRING_CALCULATOR_H_

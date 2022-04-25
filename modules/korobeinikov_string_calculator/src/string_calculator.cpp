@@ -35,8 +35,7 @@ bool StringCalculator::Check() {
         {
             if (charStack_.empty()) {
                 return false;
-            }
-            else {
+            } else {
                 charStack_.pop();
                 break;
             }
@@ -105,8 +104,7 @@ bool StringCalculator::Check() {
     }
     if (charStack_.empty()) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -175,8 +173,7 @@ void StringCalculator::ToPostfix() {
                 charStack_.push(tmp[i]);
             }
         }
-    }
-    else {
+    } else {
         throw std::string("Incorrect data");
     }
 }
