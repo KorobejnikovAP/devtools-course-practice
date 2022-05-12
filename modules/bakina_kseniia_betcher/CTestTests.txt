@@ -3,3 +3,10 @@
 #############################################
 
 set(prefix "${MODULE}")
+
+add_test(
+    NAME ${prefix}_can_run
+    COMMAND ${APPLICATION}
+)
+set_tests_properties (${prefix}_can_run PROPERTIES
+    LABELS "${MODULE}")
