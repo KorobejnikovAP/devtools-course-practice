@@ -2,6 +2,7 @@
 
 #include <string>
 #include <stdexcept>
+#include <vector>
 
 #include "../include/batcher_app.h"
 #include "../include/backina_kseniia_betcher.h"
