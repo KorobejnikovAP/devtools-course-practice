@@ -25,7 +25,7 @@ std::string BatcherApp::operator() (int argc, const char** argv) {
         std::vector<int> v2;
         std::string arg2 = std::string(argv[2]);
 
-        int k = 0;
+        size_t k = 0;
         std::string tmp = "";
         while (k < arg1.length()) {
             if (arg1[k] == ',') {
